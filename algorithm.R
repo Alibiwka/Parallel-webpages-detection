@@ -70,3 +70,8 @@ print(prec)
 print(rec)
 print(f)
 
+# precision error analysis 
+print(subset(m1, my_par==1 & is_parallel==0))
+
+# recall error analysis
+print(subset(m1, my_par==0 & is_parallel==1))
